@@ -26,7 +26,7 @@ all_sprites = pygame.sprite.Group()
 
 
 # ===== Not where this will ultimately go.  Placed here for testing purposes ==========================================================
-player = Player(10, "sprites/linkSmallShield.png", 20, 20, resScale, 1, 12, FPS, 7, {"UP":[2,3], "DOWN": [0,1], "LEFT": [6,7], "RIGHT": [4,5]})
+player = Player(10, "sprites/linkSmallShield.png", 20, 20, resScale, 1, 12, FPS, 7, {"UP":[2,3], "DOWN": [0,1], "LEFT": [6,7], "RIGHT": [4,5]}, {"UP":[9,9], "DOWN":[8,8], "LEFT":[11,11], "RIGHT":[10,10]})
 all_sprites.add(player)
 
 steve = Mob(6, "sprites/redRockShooter.png", 90, 90, resScale, 1, 8, FPS, 7, {"UP":[6,7], "DOWN":[2,3], "LEFT":[0,1], "RIGHT":[4,5]})
